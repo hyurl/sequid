@@ -1,0 +1,1 @@
+declare export default function sequid(offset?: number, loop?: boolean): IterableIterator<number>;

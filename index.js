@@ -1,13 +1,17 @@
 "use strict";
 
-function* sequid(offset) {
+function* sequid(offset, loop) {
     let id = offset || 0;
 
     while (true) {
         yield ++id;
 
         if (id === Number.MAX_SAFE_INTEGER) {
-            id = offset || 0;
+            if (loop) {
+                id = offset || 0;
+            } else {
+                break;
+            }
         }
     }
 }
