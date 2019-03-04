@@ -1,6 +1,6 @@
 {
   "name": "sequid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny tool to produce sequential numeric IDs.",
   "main": "index.js",
   "types": "index.d.ts",
