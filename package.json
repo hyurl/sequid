@@ -1,0 +1,25 @@
+{
+  "name": "sequid",
+  "version": "1.0.0",
+  "description": "A tiny tool to produce sequential numbers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyurl/sequid.git"
+  },
+  "keywords": [
+    "sequential",
+    "id",
+    "number",
+    "numeric"
+  ],
+  "author": "Ayon Lee <i@hyurl.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyurl/sequid/issues"
+  },
+  "homepage": "https://github.com/hyurl/sequid#readme"
+}
